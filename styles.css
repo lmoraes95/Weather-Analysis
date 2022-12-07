@@ -1,0 +1,103 @@
+
+a.navbar-brand{
+    margin-left: 10px;
+    padding: 10px;
+    background-color: rgb(81, 175, 160);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+
+
+h3{
+    color: rgb(81, 175, 160);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 15px;
+}
+
+
+.img-thumbnail{
+    padding:10px;
+    border: none;
+}
+
+
+p{
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: large;
+   padding:10px;
+}
+
+
+body{
+    background-color: rgb(223, 222, 222);
+}
+.col-md-12{
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom:40px;
+}
+
+.pic{
+    border: 3px solid rgb(81, 175, 160);
+}
+
+.navbar{
+    padding-top:0px;
+    padding-bottom: 0px;
+    padding-right:40px;
+}
+
+.nav-item.dropdown.show {
+    background-color: #ddd;
+}
+
+.dropdown-menu {
+    margin: 0;
+}
+
+.content {
+    padding-top: 50px;
+    padding-bottom: 80px;
+    overflow: hidden;
+}
+
+.content.bg-white {
+    margin-top: 15px;
+}
+
+
+
+tr>th:nth-child(1),
+tr>th:nth-child(3),
+tr>th:nth-child(6),
+tr>th:nth-child(7),
+tr>th:nth-child(8),
+tr>th:nth-child(9),
+tr>th:nth-child(10),
+tr>td:nth-child(1),
+tr>td:nth-child(3),
+tr>td:nth-child(6),
+tr>td:nth-child(7),
+tr>td:nth-child(8),
+tr>td:nth-child(9),
+tr>td:nth-child(10) {
+    text-align: right;
+}
+
+
+
+@media(max-width:767px){
+    .navbar.bg-light{
+        background-color: rgb(81, 175, 160)!important;    
+    }
+
+    .navbar-collapse{
+        background-color: #f8f9fa;
+    }
+    .navbar{
+        padding:inherit;
+    }
+}
+
+
